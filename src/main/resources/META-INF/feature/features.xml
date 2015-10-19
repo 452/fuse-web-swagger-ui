@@ -7,6 +7,4 @@
 		<feature>war</feature>
 		<bundle>mvn:${project.groupId}/${project.artifactId}/${project.version}/war</bundle>
 	</feature>
-<!-- 	<bundle>mvn:com.foo/mywebapp/1.0.0/war</bundle> -->
-<!-- <bundle>wrap:mvn:jboss/jbossall-client/4.3.2.GA/$Bundle-SymbolicName=jbossall-client&undle-Version=4.3.2.GA&xport-Package=org.jboss.remoting;version=".3.2.GA"!*</bundle> -->
 </features>
