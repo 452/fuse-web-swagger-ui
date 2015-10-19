@@ -24,3 +24,9 @@ Or to redeploy
 For more help see the Apache Camel documentation
 
     http://camel.apache.org/
+    
+    
+    features:addurl mvn:com.github/fuse-web-swagger-ui/1.0.0/xml/features
+	features:install fuse-web-swagger-ui
+
+	install war:file:///root/.m2/repository/com/github/fuse-web-swagger-ui/1.0.0/fuse-web-swagger-ui-1.0.0.war?Web-ContextPath=swagger-ui
